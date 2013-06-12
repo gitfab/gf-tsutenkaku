@@ -16,6 +16,18 @@ This document is for [gitfab](http://gitfab.org)
 [CommandServer.ino](https://raw.github.com/dadaa/arduino.js/master/core/sketch/CommandServer/CommandServer.ino) を Arduino にアップロードしてください。
 ---
 #ハードウェアのセットアップ
+利用する部品
+
+* Arduino
+* マルチカラーLED
+* 抵抗100Ω x 2
+* 抵抗150Ω x 1
+* ブレッドボード
+* ジャンパー線
+
+![hardware.JPG](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/hardware.JPG)
+
+※ほんとは回路図を入れるんでしょうね。
 ---
 #使い方
 
