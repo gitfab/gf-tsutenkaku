@@ -26,5 +26,5 @@ This document is for [gitfab](http://gitfab.org)
 ---
 #参照サイト
 * [ホームページ](http://www.mecha-mozilla.org/projects/tsutenkaku/)
-* [ソースコード](https://github.com/dadaa/tsutenkaku)
+* [tsutenkaku Addon ソースコード](https://github.com/dadaa/tsutenkaku)
 ---
