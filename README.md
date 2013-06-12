@@ -10,16 +10,17 @@ This document is for [gitfab](http://gitfab.org)
 ---
 #Firefox Addon のセットアップ
 
-[この Addon (tsutenkaku.xpi)](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
+[tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
 ---
 #Arduino のセットアップ
+[CommandServer.ino](https://raw.github.com/dadaa/arduino.js/master/core/sketch/CommandServer/CommandServer.ino) を Arduino にアップロードしてください。
+---
+#ハードウェアのセットアップ
 ---
 #使い方
 
 ---
-#実装
-
-
+#実装の話
 ハード面の実装はとてもシンプルです。お気に入りの通天閣の写真(CCライセンスが付いているのが良いです)にマルチカラーの LED を裏側から挿し込みます。マルチカラーLED には４つの端子が出ておりますが、ここで利用した LED では、一つはグラウンド、あとの３つはそれぞれ RGB に割り当てられていました。これらをワニ口クリップでくわえ、抵抗を通し、Arduino の然るべき PIN に接続します。
 ソフトウェアは arduino.js を利用したアドオンとして実装しました。LED 点灯のスイッチは、閲覧中のウェブページの URL に osaka が入っているか否かで切り替えています。また LED の色が明日の天気予報になっていますが、天気予報は Yahoo Japan さんのお天気RSSを取得し決定しています。ちなみに本来の通天閣の色は 白→晴、橙→曇、青→雨 となっており、晴時々曇ですと、上段が白、下段が橙に光ります。本アプリでは、緑→晴、赤→曇、青→雨とし、時間軸でその色を変化させるコトにしました。
 ---
