@@ -28,9 +28,11 @@ This document is for [gitfab](http://gitfab.org)
 ![hardware.JPG](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/hardware.JPG)
 
 ※ほんとは回路図を入れるんでしょうね。
+
+最後に Arduino と PC を USB でつなぎます。
 ---
 #使い方
-
+Addon をインストールした Firefox で普通にウェブを閲覧していてください。
 ---
 #実装の話
 ハード面の実装はとてもシンプルです。お気に入りの通天閣の写真(CCライセンスが付いているのが良いです)にマルチカラーの LED を裏側から挿し込みます。マルチカラーLED には４つの端子が出ておりますが、ここで利用した LED では、一つはグラウンド、あとの３つはそれぞれ RGB に割り当てられていました。これらをワニ口クリップでくわえ、抵抗を通し、Arduino の然るべき PIN に接続します。
