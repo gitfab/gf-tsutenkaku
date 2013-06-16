@@ -56,5 +56,3 @@ Addon をインストールした Firefox で普通にウェブを閲覧して�
 * [ホームページ](http://www.mecha-mozilla.org/projects/tsutenkaku/)
 * [tsutenkaku Addon ソースコード](https://github.com/dadaa/tsutenkaku)
 ---
-test
----
