@@ -12,7 +12,7 @@ This document is for [gitfab](http://gitfab.org)
 ---
 #Firefox Addon のセットアップ
 
-[tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
+[tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
 ---
 #Arduino のセットアップ
 [CommandServer.ino](https://raw.github.com/dadaa/arduino.js/master/core/sketch/CommandServer/CommandServer.ino) を Arduino にアップロードしてください。
@@ -27,7 +27,7 @@ This document is for [gitfab](http://gitfab.org)
 * ブレッドボード
 * ジャンパー線
 
-![hardware.JPG](https://raw.github.com/dadaa/gf-tsutenkaku/master/materials/hardware.JPG)
+![hardware.JPG](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/hardware.JPG)
 
 ※ほんとは回路図を入れるんでしょうね。
 
