@@ -52,8 +52,6 @@ Addon をインストールした Firefox で普通にウェブを閲覧して�
 
 ※まじったときのライセンス管理は少し複雑かも
 ---
-tet
----
 #参照サイト
 * [ホームページ](http://www.mecha-mozilla.org/projects/tsutenkaku/)
 * [tsutenkaku Addon ソースコード](https://github.com/dadaa/tsutenkaku)
