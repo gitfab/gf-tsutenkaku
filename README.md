@@ -2,9 +2,7 @@
 ## arduino, arduini.js, led, weather, browser,test
 This document is for [gitfab](http://gitfab.org)
 ---
-#ムービ
-
-
+#ムービー
 <video src="http://www.mecha-mozilla.org/projects/tsutenkaku//tsutenkaku.theora.ogv" poster="http://www.mecha-mozilla.org/projects/tsutenkaku//thumbnail.jpg" controls="" width="300"></video>
 ---
 #概要
