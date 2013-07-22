@@ -9,8 +9,7 @@ This document is for [gitfab](http://gitfab.org)
 ウェブブラウザでも情報を見ることはできますが、同じ情報でも実世界に取り出し表現することで、また違った感覚を得ることはできそうな気がします。tsutenkaku は、通天閣の写真に組み込まれたマルチカラーのLEDから、閲覧中のウェブページの地域性(大阪限定)と、そこの明日のお天気を緩やかに知覚するコトができるアプリケーションです。とてもシンプルですが、ウェブ内情報を見るという意味では、これも一つのウェブブラウザであると言えるのかもしれません。
 ---
 #Firefox Addon のセットアップ
-
-[tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
+[tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/resources/tsutenkaku.xpi) を Firefox でクリックしてください。インストールが始まります。
 ---
 #Arduino のセットアップ
 [CommandServer.ino](https://raw.github.com/dadaa/arduino.js/master/core/sketch/CommandServer/CommandServer.ino) を Arduino にアップロードしてください。
@@ -24,12 +23,12 @@ This document is for [gitfab](http://gitfab.org)
 * 抵抗150Ω x 1
 * ブレッドボード
 * ジャンパー線
-
-![hardware.JPG](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/hardware.JPG)
+![IMG_3929.jpg](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/resources/IMG_3929.jpg)
 
 ※ほんとは回路図を入れるんでしょうね。
 
 最後に Arduino と PC を USB でつなぎます。
+
 ---
 #使い方
 Addon をインストールした Firefox で普通にウェブを閲覧していてください。閲覧中のウェブページの URL が osaka という文字を含んだ場合、LEDが点灯し始めます。
