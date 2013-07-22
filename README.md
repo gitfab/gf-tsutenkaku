@@ -1,5 +1,5 @@
 # gf-tsutenkaku
-## arduino, arduini.js, led, weather, browser,test
+## arduino, arduino.js, led, weather, browser,test
 This document is for [gitfab](http://gitfab.org)
 ---
 #ムービー
