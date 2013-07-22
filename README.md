@@ -23,6 +23,7 @@ This document is for [gitfab](http://gitfab.org)
 * 抵抗150Ω x 1
 * ブレッドボード
 * ジャンパー線
+
 ![IMG_3929.jpg](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/resources/IMG_3929.jpg)
 
 ※ほんとは回路図を入れるんでしょうね。
