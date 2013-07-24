@@ -1,6 +1,6 @@
 # gf-tsutenkaku
-## arduino, arduino.js, led, weather, browser,test
-This document is for [gitfab](http://gitfab.org)
+## arduino, arduino.js, led, weather, browser
+This document is made by [gitfab](http://gitfab.org)
 ---
 #ムービー
 <video src="http://www.mecha-mozilla.org/projects/tsutenkaku//tsutenkaku.theora.ogv" poster="http://www.mecha-mozilla.org/projects/tsutenkaku//thumbnail.jpg" controls="" width="300"></video>
@@ -44,7 +44,7 @@ Addon をインストールした Firefox で普通にウェブを閲覧して�
 ソフトウェアは arduino.js を利用したアドオンとして実装しました。LED 点灯のスイッチは、閲覧中のウェブページの URL に osaka が入っているか否かで切り替えています。また LED の色が明日の天気予報になっていますが、天気予報は Yahoo Japan さんのお天気RSSを取得し決定しています。ちなみに本来の通天閣の色は 白→晴、橙→曇、青→雨 となっており、晴時々曇ですと、上段が白、下段が橙に光ります。本アプリでは、緑→晴、赤→曇、青→雨とし、時間軸でその色を変化させるコトにしました。
 ---
 #ライセンス
-<a rel="license" href="http://creativecommons.org/licenses/by/2.1/jp/"><img alt="クリエイティブ・コモンズ・ライセンス" style="width: 100px; border-width:0" src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ 表示 2.1 日本 ライセンスの下に提供されています。</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/2.1/jp/"><img alt="クリエイティブ・コモンズ・ライセンス" style="width: 100px; border-width:0" src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png"></a><br>この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ 表示 2.1 日本 ライセンスの下に提供されています。</a>
 
 ソースコード : [MPL2.0](http://www.mozilla.org/MPL/2.0/)
 
