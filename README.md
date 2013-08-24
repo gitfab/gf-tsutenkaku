@@ -1,4 +1,4 @@
-# gf-tsutenkaku-en
+# gf-tsutenkaku
 ## arduino, arduino.js, led, weather, browser
 This document is made by [gitfab](http://gitfab.org)
 ---
@@ -33,9 +33,9 @@ After all, connects Arduino and PC.
 #Usage
 Please browse as usual in Firefox that is installed the addon. If the url contains a word "osaka", starts to light the LED by weather.
 
-* green > sunny
-* red > cloudy
-* blue > rainy
+* green &gt; sunny
+* red &gt; cloudy
+* blue &gt; rainy
 ---
 # Implementation
 under construction..
