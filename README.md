@@ -6,9 +6,7 @@ This document is made by [gitfab](http://gitfab.org)
 <video src="http://www.mecha-mozilla.org/projects/tsutenkaku//tsutenkaku.theora.ogv" poster="http://www.mecha-mozilla.org/projects/tsutenkaku//thumbnail.jpg" controls="" width="300"></video>
 ---
 #abstract
-Although we can see information of web in web browser, if it is retrieved same information into real world, we can get different experiment.
-Tsutenkaku is application that we can perceive the area of web page and weather of that area.
-It is very simple, but we can see the web information, so we can say it is also web browser.
+Although we can see information of web in web browser, if it is retrieved same information into real world, we can get different experiment. Tsutenkaku is application that we can perceive the area and weather from browsing web page(now Osaka only.. ) by LED which is builtin the photo of Tsutenkaku Tower. It is very simple, but we can see the web information, so we may be able to say it is web browser as well.
 ---
 #Setup for Firefox Addon
 Please click [tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/resources/tsutenkaku.xpi) on Firefox.
