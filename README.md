@@ -14,30 +14,28 @@ Please click [tsutenkaku.xpi](https://raw.github.com/dadaa/gf-tsutenkaku/master/
 #Setup for Arduino
 Uploads [CommandServer.ino](https://raw.github.com/dadaa/arduino.js/master/core/sketch/CommandServer/CommandServer.ino) to Arduino.
 ---
-#ハードウェアのセットアップ
-利用する部品
+#Setup for Hardware
+
+components
 
 * Arduino
-* マルチカラーLED
-* 抵抗100Ω x 2
-* 抵抗150Ω x 1
-* ブレッドボード
-* ジャンパー線
+* Multi-Color LED
+* Resistor 100Ω x 2
+* Resistor 150Ω x 1
+* Breadborad
+* Jumper lines
 
 ![IMG_3929.jpg](https://raw.github.com/dadaa/gf-tsutenkaku/master/gitfab/resources/IMG_3929.jpg)
 
-※ほんとは回路図を入れるんでしょうね。
 
-最後に Arduino と PC を USB でつなぎます。
-
+After all, connects Arduino and PC.
 ---
-#使い方
-Addon をインストールした Firefox で普通にウェブを閲覧していてください。閲覧中のウェブページの URL が osaka という文字を含んだ場合、LEDが点灯し始めます。
-ちなみに天気と色の対応関係は以下のようになっております。
+#usage
+Please browse as usual in Firefox that is installed the addon. If the url contains a word "osaka", starts to light the LED by weather.
 
-* 緑→晴
-* 赤→曇
-* 青→雨
+* green > sunny
+* red > cloudy
+* blue > rainy
 ---
 #実装の話
 ハード面の実装はとてもシンプルです。お気に入りの通天閣の写真(CCライセンスが付いているのが良いです)にマルチカラーの LED を裏側から挿し込みます。マルチカラーLED には４つの端子が出ておりますが、ここで利用した LED では、一つはグラウンド、あとの３つはそれぞれ RGB に割り当てられていました。これらをワニ口クリップでくわえ、抵抗を通し、Arduino の然るべき PIN に接続します。
