@@ -1,4 +1,4 @@
-# gf-tsutenkaku
+# gf-tsutenkaku-en
 ## arduino, arduino.js, led, weather, browser
 This document is made by [gitfab](http://gitfab.org)
 ---
